@@ -12,3 +12,15 @@
   color: rgb(0, 0, 0);
   font-family: 'Montserrat', sans-serif;
  }
+
+ .btn{
+  transition: all 0.3s ease;
+ }
+
+ .btn:hover{
+  transform: translateY(-2px);
+ }
+
+ .input_box{
+  border-radius: 5px;
+ }
