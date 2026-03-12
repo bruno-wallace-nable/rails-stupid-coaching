@@ -2,7 +2,6 @@ class PagesController < ApplicationController
   def home
     # apenas renderiza a página do formulário
   end
-
   def answer
     # 1. pegamos a pergunta enviada via formulário através do hash 'params'
     @question = params[:question]
